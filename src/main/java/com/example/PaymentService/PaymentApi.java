@@ -32,7 +32,7 @@ public interface PaymentApi {
                     ),
             }
     )
-    ResponseEntity<String> processPayment( PaymentRequest paymentRequest );
+    ResponseEntity<PaymentResponse> processPayment( PaymentRequest paymentRequest );
 
 }
 
