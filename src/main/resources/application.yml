@@ -6,7 +6,7 @@ server:
 springdoc:
   swagger-ui.path: /openapi/swagger-ui.html
   api-docs.path: /openapi/v3/api-docs
-  packagesToScan: com.example.product
+  packagesToScan: com.example.PaymentService
   pathsToMatch: /**
 api:
   responseCodes:

@@ -24,7 +24,7 @@ public interface PaymentApi {
                     ),
                     @ApiResponse(
                             responseCode = "500",
-                            description = "${api.responseCodes.internalServer.description}",
+                            description = "Internal Server Error. See response message for more information",
                             content = {
                                     @Content(mediaType = "application/json",
                                             schema = @Schema(implementation = ErrorResponse.class))
